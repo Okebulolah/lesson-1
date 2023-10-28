@@ -1,0 +1,73 @@
+body {
+  background-image: url("https://source.unsplash.com/p76UivR30oo");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  object-fit: contain;
+}
+
+#tiwa {
+  color: red;
+  background-color: blue;
+}
+
+.paragraph {
+  font-size: 30px;
+}
+
+p#classname {
+  color: red;
+}
+
+p {
+  color: blue;
+}
+
+p .figma {
+  background-color: black;
+  color: white;
+  opacity: 0.1;
+}
+
+.class#id {
+}
+
+h1 #gb {
+  font-size: 50px;
+}
+
+a {
+  color: yellow;
+}
+
+a:visited {
+  color: BLUE;
+}
+/* This does this */
+
+/* my name ia tobi and i have many girlfriends */
+.navigation {
+  background-color: brown;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* max-width: 450px;
+    min-height: 100px; */
+  margin: auto;
+  padding-left: 80px;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+.navigation a {
+  margin-right: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
+}

@@ -1,0 +1,31 @@
+body {color: #fff;
+    margin: 0;
+    font-family: monospace;
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color:#7604d4d4;
+color: #fff;
+font-size: 20px;}
+
+a.bootstrap logo:hover {transform: background-image 0.5s ease-in-out;}
+    .about {display: flex;
+    justify-content: space-between;}
+
+    input {color: #fff;
+    background-color: #7604d4d4;
+font-family: monospace;}
+
+    a {text-decoration: none;
+    color: #fff;}

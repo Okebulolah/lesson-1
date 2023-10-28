@@ -1,0 +1,107 @@
+body {
+  background-color: #184c99;
+  color: #fff;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  max-width: 60%;
+  margin: auto;
+}
+
+.brand {
+  font-size: 20px;
+  font-weight: 600px;
+}
+
+.home {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.log {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+.navigation a:hover {
+  text-decoration: underline;
+  color: #23a6f0;
+}
+.login {
+  color: #23a6f0;
+}
+a.login:hover {
+  background-color: #23a6f0;
+  color: #fff;
+}
+
+.join {
+  background-color: #23a6f0;
+  padding: 10px;
+}
+a.join:hover {
+  color: #23a6f0;
+  background-color: transparent;
+}
+
+h5 {
+  color: #23a6f0;
+  padding-top: 120px;
+  padding-bottom: 40px;
+}
+
+h1 {
+  padding-bottom: 20px;
+}
+
+p {
+  padding-bottom: 10px;
+}
+.quote {
+  background-color: #23a6f0;
+  padding: 10px;
+}
+a.quote:hover {
+  border: solid #23a6f0;
+  padding: 10px;
+  background-color: #184c99;
+}
+.learn {
+  border: solid #23a6f0;
+  padding: 10px;
+}
+a.learn:hover {
+  background-color: #23a6f0;
+  padding: 10px;
+}
+
+
+@media screen and (min-width: 400px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    body {
+        background-color: green;
+    }
